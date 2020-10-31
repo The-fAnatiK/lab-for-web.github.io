@@ -1,0 +1,32 @@
+main{
+    padding: 5% 10%;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.tag-about-us
+{
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+.content-about-us > p
+{
+    text-indent: 5%;
+    line-height: 1.5;
+}
+
+.list-about-us
+{
+    margin: 2% 15%;
+}
+
+.list-about-us > li
+{
+    list-style-type: none;
+}
+
+.list-about-us > li::before {
+    content: "-";
+    padding-right: 0.5em;
+}

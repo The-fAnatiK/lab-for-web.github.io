@@ -1,0 +1,14 @@
+.contacts{
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    padding: 1% 4%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.8vw;
+}
+
+.contacts > a{
+    text-decoration: none;
+    color: white;
+}

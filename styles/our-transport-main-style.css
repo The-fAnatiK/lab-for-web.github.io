@@ -1,0 +1,36 @@
+.container-main
+{
+    display:  flex;
+    flex-direction: column;
+    margin: 5% 7%;
+    box-shadow: 0px 0px 4px 0px #CCE2DE;
+
+}
+.container-row
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 4px 0px #CCE2DE;
+    margin: 1.5% 2%;
+    padding: 5% 10%;
+    width: 50%;
+}
+
+.content > p{
+    font-family: "Philosopher" ;
+    font-weight: 100;
+    font-size: 1.8vw;
+}
+
+.content > img
+{
+    width: 80%;
+}
