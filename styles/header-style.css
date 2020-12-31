@@ -34,10 +34,10 @@
 }
 
 .nav {
+    margin-left: 1%;
     overflow: hidden;
     text-align: center;
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
     font-size: 1.4vw;
     padding: 0.5% 0%;
@@ -75,4 +75,30 @@
 .logo > a{
     text-decoration: none;
     color: white;
+}
+
+.nav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+    }
+    .nav a{
+        display: none;
+    }
+    .nav a.icon {
+        display: block;
+    }
+
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+        right: 0;
+        top: 0;
+    }
+    .nav.responsive a {
+        display: block;
+        text-align: left;
+    }
 }
