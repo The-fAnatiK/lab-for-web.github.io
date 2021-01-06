@@ -12,3 +12,22 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 1024px) {
+    .contacts{
+        flex-direction: column;
+        font-size: 2.8vw;
+    }
+    .contacts > a{
+        padding: 1% ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contacts{
+        font-size: 3.8vw;
+    }
+    .contacts > a{
+        padding: 3% ;
+    }
+}

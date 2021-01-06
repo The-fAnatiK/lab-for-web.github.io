@@ -34,3 +34,17 @@
 {
     width: 80%;
 }
+
+@media screen and (max-width: 1024px) {
+    .container-row
+    {
+        flex-direction: column;
+    }
+    .content
+    {
+        width: initial ;
+    }
+    .content > p{
+        font-size: 3.8vw;
+    }
+}
